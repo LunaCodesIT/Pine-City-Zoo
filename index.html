@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pine City Zoo Book</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="cover cover-left"></div>
+      <div class="cover cover-right"></div>
+
+      <div class="book">
+        <div class="book-page-1 page-left">
+          <img src="map.png" alt="Pine City Zoo Map" class="full-page-image" />
+        </div>
+
+        <!-- page 1 & 2-->
+        <div class="book-page page-right turn" id="turn-1">
+          <!-- Pine City Zoo Overview-->
+          <div class="page-front">
+            <h1 class="title">Pine City Zoo</h1>
+            <div class="overview-box">
+              <div class="overview-content">
+                <h3>Our History</h3>
+                <p>
+                  The Pine City Zoo began as a small wildlife sanctuary in 1950,
+                  growing into a vibrant hub with diverse species and
+                  educational programs over decades of dedication.
+                </p>
+              </div>
+
+              <div class="overview-content">
+                <h3>Our Present</h3>
+                <p>
+                  Today, Pine City Zoo thrives with modern exhibits,
+                  conservation efforts, and interactive tours, welcoming
+                  thousands of visitors annually to explore its rich animal
+                  collections.
+                </p>
+              </div>
+
+              <div class="overview-content">
+                <h3>Our Future</h3>
+                <p>
+                  Looking ahead, Pine City Zoo plans to expand with new
+                  habitats, enhance wildlife research, and inspire future
+                  generations through innovative environmental education
+                  initiatives.
+                </p>
+              </div>
+              <div class="overview-content">
+                <h3>Awards</h3>
+                <p>
+                  Pine City Zoo has earned accolades for its conservation work,
+                  receiving top honors in 2020.
+                </p>
+              </div>
+            </div>
+
+            <span class="number-page">1</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-1">
+              <i class="bx bx-chevron-right">></i>
+            </span>
+          </div>
+          <!-- Animals Page 1 -->
+          <div class="page-back">
+            <h1 class="title">Animals</h1>
+
+            <div class="animals-box">
+              <div class="animals-content">
+                <img src="gorilla.jpg" alt="Gorilla" class="animal-image" />
+                <h3>Gorilla</h3>
+                <p>Mighty, powerful, and jungle king.</p>
+              </div>
+              <div class="animals-content">
+                <img src="koala.jpg" alt="Koala" class="animal-image" />
+                <h3>Koala</h3>
+                <p>Cute, sleepy, and tree dweller.</p>
+              </div>
+              <div class="animals-content">
+                <img src="lion.jpg" alt="Lion" class="animal-image" />
+                <h3>Lion</h3>
+                <p>Fierce, regal, and pride leader.</p>
+              </div>
+              <div class="animals-content">
+                <img src="elephant.jpg" alt="Elephant" class="animal-image" />
+                <h3>Elephant</h3>
+                <p>Gentle, massive, and trunked giant.</p>
+              </div>
+            </div>
+
+            <span class="number-page">2</span>
+
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-1">
+              <i class="bx bx-chevron-left"><</i>
+            </span>
+          </div>
+        </div>
+
+        <!-- page 3 & 4-->
+        <div class="book-page page-right turn" id="turn-2">
+          <!-- page 3 (Animals Page 2)-->
+          <div class="page-front">
+            <h1 class="title">Animals</h1>
+
+            <div class="animals-box">
+              <div class="animals-content">
+                <img src="gemsbok.jpg" alt="Gemsbok" class="animal-image" />
+                <h3>Gemsbok</h3>
+                <p>Graceful, horned, and desert antelope.</p>
+              </div>
+              <div class="animals-content">
+                <img src="monkey.jpg" alt="Monkey" class="animal-image" />
+                <h3>Monkey</h3>
+                <p>Playful, agile, and tree jumper.</p>
+              </div>
+              <div class="animals-content">
+                <img src="panda.jpg" alt="Panda" class="animal-image" />
+                <h3>Panda</h3>
+                <p>Adorable, black, and bamboo eater.</p>
+              </div>
+              <div class="animals-content">
+                <img src="warthog.jpg" alt="Warthog" class="animal-image" />
+                <h3>Warthog</h3>
+                <p>Tough, tusked, and savanna survivor.</p>
+              </div>
+            </div>
+            <span class="number-page">3</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-2">
+              <i class="bx bx-chevron-right">></i>
+            </span>
+          </div>
+
+          <!-- page 4 (Places Page)-->
+          <div class="page-back">
+            <h1 class="title">Places</h1>
+
+            <div class="animals-box">
+              <div class="animals-content">
+                <img
+                  src="garden-amphitheater.jpg"
+                  alt="Amphitheatre"
+                  class="animal-image"
+                />
+                <h3>Amphitheatre</h3>
+                <p>Scenic, open-air, zoo performance space.</p>
+              </div>
+              <div class="animals-content">
+                <img src="aquarium.jpg" alt="Aquarium" class="animal-image" />
+                <h3>Aquarium</h3>
+                <p>Vivid, underwater, marine life exhibit.</p>
+              </div>
+              <div class="animals-content">
+                <img
+                  src="pineforest.jpg"
+                  alt="Pine Forest"
+                  class="animal-image"
+                />
+                <h3>Pine Forest</h3>
+                <p>Lush, green, wildlife habitat area.</p>
+              </div>
+              <div class="animals-content">
+                <img src="lionden.jpg" alt="Lion Den" class="animal-image" />
+                <h3>Lion Den</h3>
+                <p>Rugged, wild, lion family home.</p>
+              </div>
+            </div>
+            <span class="number-page">4</span>
+
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-2">
+              <i class="bx bx-chevron-left"><</i>
+            </span>
+          </div>
+        </div>
+
+        <!-- page 5 & 6-->
+        <div class="book-page page-right turn" id="turn-3">
+          <!-- page 5 (Weather Page)-->
+          <div class="page-front">
+            <h1 class="title">Weather</h1>
+            <div class="weather-box">
+              <div class="weather-content">
+                <h3>5-Day Forecast</h3>
+                <img
+                  src="weather.jpg"
+                  alt="Weather Forecast"
+                  class="weather-image"
+                />
+                <div class="forecast-list">
+                  <div class="forecast-item">
+                    <img
+                      src="sunny.png"
+                      alt="Sunny Icon"
+                      class="forecast-icon"
+                    />
+                    <div class="forecast-details">
+                      <span class="day">Monday</span>
+                      <span>18°C / 12°C, Sunny</span>
+                    </div>
+                  </div>
+                  <div class="forecast-item">
+                    <img
+                      src="partly-cloudy.png"
+                      alt="Partly Cloudy Icon"
+                      class="forecast-icon"
+                    />
+                    <div class="forecast-details">
+                      <span class="day">Tuesday</span>
+                      <span>20°C / 14°C, Partly Cloudy</span>
+                    </div>
+                  </div>
+                  <div class="forecast-item">
+                    <img
+                      src="partly-cloudy.png"
+                      alt="Cloudy Icon"
+                      class="forecast-icon"
+                    />
+                    <div class="forecast-details">
+                      <span class="day">Wednesday</span>
+                      <span>19°C / 13°C, Cloudy</span>
+                    </div>
+                  </div>
+                  <div class="forecast-item">
+                    <img
+                      src="rain.png"
+                      alt="Rainy Icon"
+                      class="forecast-icon"
+                    />
+                    <div class="forecast-details">
+                      <span class="day">Thursday</span>
+                      <span>17°C / 11°C, Rainy</span>
+                    </div>
+                  </div>
+                  <div class="forecast-item">
+                    <img
+                      src="sunny.png"
+                      alt="Sunny Icon"
+                      class="forecast-icon"
+                    />
+                    <div class="forecast-details">
+                      <span class="day">Friday</span>
+                      <span>16°C / 10°C, Sunny</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="visitor-tips">
+                  <h4>Visitor Tip</h4>
+                  <p>Bring an umbrella for Thursday's rain.</p>
+                </div>
+              </div>
+            </div>
+            <span class="number-page">5</span>
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-3">
+              <i class="bx bx-chevron-right">></i>
+            </span>
+          </div>
+          <!-- page 6 (Feedback)-->
+          <div class="page-back">
+            <h1 class="title">Feedback</h1>
+
+            <div class="contact-box">
+              <form action="#">
+                <input
+                  type="text"
+                  class="field"
+                  placeholder="Full Name"
+                  required
+                />
+                <input
+                  type="email"
+                  class="field"
+                  placeholder="Email Address"
+                  required
+                />
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="field"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+                <input type="submit" class="btn" value="Send Message" />
+              </form>
+            </div>
+            <span class="number-page">6</span>
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-3">
+              <i class="bx bx-chevron-left"><</i>
+            </span>
+
+            <a href="#" class="back-to-map">
+              <p>Map</p>
+              <img src="mapicon.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
